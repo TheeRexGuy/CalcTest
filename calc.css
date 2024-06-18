@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(25, 25, 26);
+}
+#cal{
+    box-shadow: 0vw 0vw 2vw 0.01vw rgb(136, 136, 136);
+    background-color: rgb(27, 26, 29);
+    height: 30vw;
+    width: 25vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+#disp{
+    text-align: right;
+    background-color: rgb(253, 247, 230);
+    box-shadow: 0vw 0vw 0.5vw 0.1vw rgb(49, 49, 49) inset;
+    pointer-events: none;
+    font-size: 3vw;
+    font-family: Helvetica;
+    height: 6vw;
+    width: 23vw;
+    top: 3%;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+#but{
+    position: fixed;
+    height: 23vw;
+    width: 23vw;
+    top: 65%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+button{
+    border-style: none;
+    border-radius: 0.5vw;
+    box-shadow: 0vw 0vw 0.5vw 0.005vw rgb(66, 61, 73), 0vw 0vw 2vw 0.5vw rgb(11, 11, 12) inset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 19, 20); 
+    font-size: 2vw;
+    font-family: Helvetica;
+    margin: 0.1vw;
+    height: 4vw;
+    width: 5vw;
+}
+button:hover{
+    opacity: 40%;
+}
